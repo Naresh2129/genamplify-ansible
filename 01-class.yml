@@ -1,5 +1,5 @@
 - name: Install Apache
-  hosts: web
+  hosts: all
   tasks:
     - name: Install Apache >= 2.4
 
