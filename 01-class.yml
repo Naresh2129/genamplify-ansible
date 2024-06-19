@@ -1,8 +1,8 @@
-- name: Install Apache >= 2.4
+- name : Install Apache >= 2.4
   hosts: web
   tasks:
-    -name: Install Apache >= 2.4
-    ansible.builtin.yum:
-      name: httpd>=2.4
-      state: latest
+    - name: Install Apache >= 2.4
 
+      ansible.builtin.yum:
+       name: httpd>=2.4
+       state: latest
